@@ -428,7 +428,7 @@ public class Main {
                     printRemoved = currentLine;
                     error = false;
                 }
-                if(data[1].equalsIgnoreCase(remove))
+                else if(data[1].equalsIgnoreCase(remove))
                 {
                     sameTitle.add(currentLine);
                     compareID.add(data[0]);
