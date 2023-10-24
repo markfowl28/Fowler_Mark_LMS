@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="MainFrame">
+  <grid id="27dc6" binding="mainPanel" layout-manager="GridLayoutManager" row-count="3" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="487" height="400"/>
+    </constraints>
+    <properties/>
+    <border type="etched"/>
+    <children>
+      <component id="1817b" class="javax.swing.JButton" binding="checkInButton">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="1" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Check-In a Book"/>
+        </properties>
+      </component>
+      <component id="a87b6" class="javax.swing.JButton" binding="addBooksButton">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="1" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Add New Books to the Library"/>
+        </properties>
+      </component>
+      <component id="c6667" class="javax.swing.JButton" binding="removeBooksButton">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="1" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Remove Books from the Library"/>
+        </properties>
+      </component>
+      <component id="40b87" class="javax.swing.JButton" binding="seeLibraryButton">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="1" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="See the Current Library Books"/>
+        </properties>
+      </component>
+      <component id="ed58c" class="javax.swing.JButton" binding="checkOutButton">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="1" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Check-Out a Book"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
