@@ -17,6 +17,13 @@ public class Main {
     }
 
     /*
+    The ClearData() method clears the matches after confirming selection for removing, checking out, and checking in books
+     */
+    public static String[] ClearData() {
+        return new String[]{""};
+    }
+
+    /*
     The CalculateDate() method is responsible for assigning the due date value to a book being checked out
     When a book is checked out, the due date is set 4 weeks(28 days) from the current date and time
      */

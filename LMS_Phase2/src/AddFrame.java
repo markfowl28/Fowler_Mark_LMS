@@ -23,7 +23,7 @@ public class AddFrame extends JFrame {
     public AddFrame() {
         setContentPane(addPanel);
         setTitle("Add New Books");
-        setSize(500, 400);
+        setSize(600, 500);
         setLocationRelativeTo(null);
         setDefaultCloseOperation(WindowConstants.DISPOSE_ON_CLOSE);
         setVisible(true);
@@ -33,6 +33,7 @@ public class AddFrame extends JFrame {
                 String file = input.getText();
                 addedList.setListData(Add(file));
                 updateLabel.setText("The following books have been added:");
+                input.setText("");
             }
         });
     }

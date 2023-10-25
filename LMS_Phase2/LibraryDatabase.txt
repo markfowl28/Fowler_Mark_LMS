@@ -1,13 +1,11 @@
-1001,The Da Vinci Code,Dan Brown,Mystery,Checked In,Due Date:null
+1001,The Da Vinci Code,Dan Brown,Mystery,Checked Out,Due Date:Wed Nov 22 13:04:08 EST 2023
 1002,The Lion the Witch and the Wardrobe,C. S. Lewis,Fantasy,Checked In,Due Date:null
 1003,The Hobbit,J. R. R. Tolkien,Fantasy,Checked In,Due Date:null
 1004,And Then There Were None,Agatha Christie,Mystery,Checked In,Due Date:null
 1005,The Bridges of Madison County,Robert James Waller,Romance,Checked In,Due Date:null
 1006,The Eagle Has Landed,Jack Higgins,War,Checked In,Due Date:null
 1007,The Girl on the Train,Paula Hawkins,Thriller,Checked In,Due Date:null
-1009,Jaws,Peter Benchley,Thriller,Checked In,Due Date:null
-1010,Love Story,Erich Segal,Romance,Checked In,Due Date:null
-1011,Love Story,Erich Segal,Romance,Checked In,Due Date:null
-1013,All Quiet on the Western Front,Erich Maria Remarque,War,Checked In,Due Date:null
-1012,Love Story,Erich Segal,Romance,Checked In,Due Date:null
 1008,Jaws,Peter Benchley,Thriller,Checked In,Due Date:null
+1009,Jaws,Peter Benchley,Thriller,Checked In,Due Date:null
+1011,Love Story,Erich Segal,Romance,Checked In,Due Date:null
+1012,Love Story,Erich Segal,Romance,Checked In,Due Date:null

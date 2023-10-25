@@ -21,7 +21,7 @@ public class ListFrame extends JFrame{
     public ListFrame() {
         setContentPane(printListPanel);
         setTitle("Library Collection");
-        setSize(800,800);
+        setSize(700,500);
         setLocationRelativeTo(null);
         setDefaultCloseOperation(WindowConstants.DISPOSE_ON_CLOSE);
         setVisible(true);

@@ -11,6 +11,7 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.io.*;
 import java.util.ArrayList;
+import java.util.Objects;
 
 public class RemoveFrame extends JFrame{
     private JLabel titleLabel;
@@ -26,7 +27,7 @@ public class RemoveFrame extends JFrame{
     public RemoveFrame() {
         setContentPane(removePanel);
         setTitle("Remove Books From the Database");
-        setSize(500, 400);
+        setSize(600, 400);
         setLocationRelativeTo(null);
         setDefaultCloseOperation(WindowConstants.DISPOSE_ON_CLOSE);
         setVisible(true);
@@ -34,15 +35,14 @@ public class RemoveFrame extends JFrame{
         searchTitleButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                String input = titleInput.getText();
-                matches.setListData(RemoveSearch(input, true));
-            }
-        });
-        searchDButton.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                String input = IDInput.getText();
-                matches.setListData(RemoveSearch(input, false));
+                String title = titleInput.getText();
+                String id = IDInput.getText();
+                if (Objects.equals(title, "")) {
+                    matches.setListData(RemoveSearch(id, false));
+                } else {
+                    matches.setListData(RemoveSearch(title, true));
+                }
+                matches.getPreferredScrollableViewportSize();
             }
         });
         confirmSelectionButton.addActionListener(new ActionListener() {
@@ -50,6 +50,9 @@ public class RemoveFrame extends JFrame{
             public void actionPerformed(ActionEvent e) {
                 String selection = (String) matches.getSelectedValue();
                 Remove(selection);
+                matches.setListData(Main.ClearData());
+                titleInput.setText("");
+                IDInput.setText("");
             }
         });
     }
